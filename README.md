@@ -22,8 +22,8 @@ AI Agent	Description
 Minimax	Implements depth-limited minimax search with simple evaluation heuristics.
 Groq LLM	Calls a large language model via Groq API to suggest a move in real-time.
 
-###🚀 Getting Started
-###📦 Requirements
+### 🚀 Getting Started
+### 📦 Requirements
 Python 3.x
 
 Install dependencies:
@@ -46,29 +46,26 @@ Choose AI agent:
 
 2 for Groq LLM
 
-###🔐 Groq API Key Setup
+### 🔐 Groq API Key Setup
 To use the Groq LLM agent:
 
 Replace this line in the code with your actual API key:
 
-python
-Copy
-Edit
 client = Groq(api_key="your_api_key_here")
 Important: Never share or hardcode your API key in public code.
 
-###🧪 Future Improvements
-###🎯 Add kinging support for crowned pieces.
+### 🧪 Future Improvements
+### 🎯 Add kinging support for crowned pieces.
 
-###🌐 Online multiplayer mode.
+### 🌐 Online multiplayer mode.
 
-###📊 Track and display move history and scores.
+### 📊 Track and display move history and scores.
 
-###🗂 Export game replays for training/testing AI.
+### 🗂 Export game replays for training/testing AI.
 
-###🧠 Integrate more LLM models like OpenAI, Claude, etc.
+### 🧠 Integrate more LLM models like OpenAI, Claude, etc.
 
-###📁 Project Structure
+### 📁 Project Structure
 
 📦 checkers-ai-game/
  ┣ 📜 checkers Player game.py   ← Main game logic and GUI
